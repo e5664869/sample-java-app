@@ -3,7 +3,7 @@
 FROM adoptopenjdk/openjdk11:alpine-jre
 
 # Simply the artifact path
-ARG artifact=target/surefire-reports/*.xml
+ARG artifact=target/sample-0.0.1-SNAPSHOT.jar
 
 WORKDIR /opt/app
 
